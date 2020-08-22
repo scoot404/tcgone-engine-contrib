@@ -46,6 +46,7 @@ public enum BurningShadows implements LogicCardInfo {
   WIMPOD_16 ("Wimpod", "16", Rarity.COMMON, [BASIC, POKEMON, _GRASS_]),
   GOLISOPOD_GX_17 ("Golisopod-GX", "17", Rarity.ULTRARARE, [STAGE1, EVOLUTION, POKEMON, POKEMON_GX, _GRASS_]),
   CHARMANDER_18 ("Charmander", "18", Rarity.COMMON, [BASIC, POKEMON, _FIRE_]),
+  CHARMANDER_18A ("Charmander", "18a", Rarity.COMMON, [BASIC, POKEMON, _FIRE_]),
   CHARMELEON_19 ("Charmeleon", "19", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _FIRE_]),
   CHARIZARD_GX_20 ("Charizard-GX", "20", Rarity.ULTRARARE, [STAGE2, EVOLUTION, POKEMON, POKEMON_GX, _FIRE_]),
   HO_OH_GX_21 ("Ho-Oh-GX", "21", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _FIRE_]),
@@ -67,6 +68,7 @@ public enum BurningShadows implements LogicCardInfo {
   SIMIPOUR_37 ("Simipour", "37", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _WATER_]),
   BRUXISH_38 ("Bruxish", "38", Rarity.RARE, [BASIC, POKEMON, _WATER_]),
   TAPU_FINI_GX_39 ("Tapu Fini-GX", "39", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _WATER_]),
+  TAPU_FINI_GX_39A ("Tapu Fini-GX", "39a", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _WATER_]),
   PIKACHU_40 ("Pikachu", "40", Rarity.COMMON, [BASIC, POKEMON, _LIGHTNING_]),
   RAICHU_41 ("Raichu", "41", Rarity.HOLORARE, [STAGE1, EVOLUTION, POKEMON, _LIGHTNING_]),
   ELECTABUZZ_42 ("Electabuzz", "42", Rarity.UNCOMMON, [BASIC, POKEMON, _LIGHTNING_]),
@@ -116,10 +118,12 @@ public enum BurningShadows implements LogicCardInfo {
   WEAVILE_86 ("Weavile", "86", Rarity.RARE, [STAGE1, EVOLUTION, POKEMON, _DARKNESS_]),
   DARKRAI_87 ("Darkrai", "87", Rarity.HOLORARE, [BASIC, POKEMON, _DARKNESS_]),
   DARKRAI_GX_88 ("Darkrai-GX", "88", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _DARKNESS_]),
+  DARKRAI_GX_88A ("Darkrai-GX", "88a", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _DARKNESS_]),
   INKAY_89 ("Inkay", "89", Rarity.COMMON, [BASIC, POKEMON, _DARKNESS_]),
   MALAMAR_90 ("Malamar", "90", Rarity.RARE, [STAGE1, EVOLUTION, POKEMON, _DARKNESS_]),
   RALTS_91 ("Ralts", "91", Rarity.COMMON, [BASIC, POKEMON, _FAIRY_]),
   KIRLIA_92 ("Kirlia", "92", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _FAIRY_]),
+  KIRLIA_92A ("Kirlia", "92a", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _FAIRY_]),
   GARDEVOIR_GX_93 ("Gardevoir-GX", "93", Rarity.ULTRARARE, [STAGE2, EVOLUTION, POKEMON, POKEMON_GX, _FAIRY_]),
   DIANCIE_94 ("Diancie", "94", Rarity.HOLORARE, [BASIC, POKEMON, _FAIRY_]),
   CUTIEFLY_95 ("Cutiefly", "95", Rarity.COMMON, [BASIC, POKEMON, _FAIRY_]),
@@ -133,6 +137,7 @@ public enum BurningShadows implements LogicCardInfo {
   PORYGON_103 ("Porygon", "103", Rarity.COMMON, [BASIC, POKEMON, _COLORLESS_]),
   PORYGON2_104 ("Porygon2", "104", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _COLORLESS_]),
   PORYGON_Z_105 ("Porygon-Z", "105", Rarity.HOLORARE, [STAGE2, EVOLUTION, POKEMON, _COLORLESS_]),
+  PORYGON_Z_105A ("Porygon-Z", "105a", Rarity.HOLORARE, [STAGE2, EVOLUTION, POKEMON, _COLORLESS_]),
   HOOTHOOT_106 ("Hoothoot", "106", Rarity.COMMON, [BASIC, POKEMON, _COLORLESS_]),
   NOCTOWL_107 ("Noctowl", "107", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _COLORLESS_]),
   BOUFFALANT_108 ("Bouffalant", "108", Rarity.UNCOMMON, [BASIC, POKEMON, _COLORLESS_]),
@@ -140,10 +145,13 @@ public enum BurningShadows implements LogicCardInfo {
   STUFFUL_110 ("Stufful", "110", Rarity.COMMON, [BASIC, POKEMON, _COLORLESS_]),
   BEWEAR_111 ("Bewear", "111", Rarity.RARE, [STAGE1, EVOLUTION, POKEMON, _COLORLESS_]),
   ACEROLA_112 ("Acerola", "112", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
+  ACEROLA_112A ("Acerola", "112a", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
   BODYBUILDING_DUMBBELLS_113 ("Bodybuilding Dumbbells", "113", Rarity.UNCOMMON, [POKEMON_TOOL, ITEM, TRAINER]),
   ESCAPE_ROPE_114 ("Escape Rope", "114", Rarity.UNCOMMON, [ITEM, TRAINER]),
   GUZMA_115 ("Guzma", "115", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
+  GUZMA_115A ("Guzma", "115a", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
   KIAWE_116 ("Kiawe", "116", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
+  KIAWE_116A ("Kiawe", "116a", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
   LANA_117 ("Lana", "117", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
   MOUNT_LANAKILA_118 ("Mount Lanakila", "118", Rarity.UNCOMMON, [STADIUM, TRAINER]),
   OLIVIA_119 ("Olivia", "119", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
@@ -616,6 +624,8 @@ public enum BurningShadows implements LogicCardInfo {
           }
 
         };
+      case CHARMANDER_18A:
+        return copy(CHARMANDER_18, this);
       case CHARMELEON_19:
         return evolution (this, from:"Charmander", hp:HP090, type:FIRE, retreatCost:2) {
           weakness WATER
@@ -1048,6 +1058,8 @@ public enum BurningShadows implements LogicCardInfo {
           }
 
         };
+      case TAPU_FINI_GX_39A:
+        return copy(TAPU_FINI_GX_39, this);
       case PIKACHU_40:
         return basic (this, hp:HP060, type:LIGHTNING, retreatCost:1) {
           weakness FIGHTING
@@ -2138,6 +2150,8 @@ public enum BurningShadows implements LogicCardInfo {
           }
 
         };
+      case DARKRAI_GX_88A:
+        return copy(DARKRAI_GX_88, this);
       case INKAY_89:
         return basic (this, hp:HP060, type:DARKNESS, retreatCost:1) {
           weakness FIGHTING
@@ -2219,6 +2233,8 @@ public enum BurningShadows implements LogicCardInfo {
           }
 
         };
+      case case KIRLIA_92A:
+        return copy(KIRLIA_92, this);
       case GARDEVOIR_GX_93:
         return evolution (this, from:"Kirlia", hp:HP230, type:FAIRY, retreatCost:2) {
           weakness METAL
@@ -2515,6 +2531,8 @@ public enum BurningShadows implements LogicCardInfo {
           }
 
         };
+      case PORYGON_Z_105A:
+        return copy(PORYGON_Z_105, this);
       case HOOTHOOT_106:
         return basic (this, hp:HP060, type:COLORLESS, retreatCost:1) {
           weakness LIGHTNING
@@ -2644,6 +2662,8 @@ public enum BurningShadows implements LogicCardInfo {
             confirmScoopLastPokemon()
           }
         };
+      case ACEROLA_112A:
+        return copy(ACEROLA_112, this);
       case BODYBUILDING_DUMBBELLS_113:
         return pokemonTool (this) {
           text "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.\nThe Stage 1 Pokémon this card is attached to gets +40 HP.\nYou may play as many Item cards as you like during your turn (before your attack)."

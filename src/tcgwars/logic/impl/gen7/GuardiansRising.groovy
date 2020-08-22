@@ -48,8 +48,10 @@ public enum GuardiansRising implements LogicCardInfo {
   TURTONATOR_17 ("Turtonator", "17", Rarity.RARE, [BASIC, POKEMON, _FIRE_]),
   TURTONATOR_GX_18 ("Turtonator-GX", "18", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _FIRE_]),
   ALOLAN_SANDSHREW_19 ("Alolan Sandshrew", "19", Rarity.COMMON, [BASIC, POKEMON, _WATER_]),
+  ALOLAN_SANDSHREW_19A ("Alolan Sandshrew", "19a", Rarity.COMMON, [BASIC, POKEMON, _WATER_]),
   ALOLAN_SANDSLASH_20 ("Alolan Sandslash", "20", Rarity.RARE, [STAGE1, EVOLUTION, POKEMON, _WATER_]),
   ALOLAN_VULPIX_21 ("Alolan Vulpix", "21", Rarity.COMMON, [BASIC, POKEMON, _WATER_]),
+  ALOLAN_VULPIX_21A ("Alolan Vulpix", "21a", Rarity.COMMON, [BASIC, POKEMON, _WATER_]),
   ALOLAN_NINETALES_GX_22 ("Alolan Ninetales-GX", "22", Rarity.ULTRARARE, [STAGE1, EVOLUTION, POKEMON, POKEMON_GX, _WATER_]),
   TENTACOOL_23 ("Tentacool", "23", Rarity.COMMON, [BASIC, POKEMON, _WATER_]),
   TENTACRUEL_24 ("Tentacruel", "24", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _WATER_]),
@@ -80,6 +82,7 @@ public enum GuardiansRising implements LogicCardInfo {
   SLOWBRO_49 ("Slowbro", "49", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _PSYCHIC_]),
   TRUBBISH_50 ("Trubbish", "50", Rarity.COMMON, [BASIC, POKEMON, _PSYCHIC_]),
   GARBODOR_51 ("Garbodor", "51", Rarity.RARE, [STAGE1, EVOLUTION, POKEMON, _PSYCHIC_]),
+  GARBODOR_51A ("Garbodor", "51a", Rarity.RARE, [STAGE1, EVOLUTION, POKEMON, _PSYCHIC_]),
   GOTHITA_52 ("Gothita", "52", Rarity.COMMON, [BASIC, POKEMON, _PSYCHIC_]),
   GOTHORITA_53 ("Gothorita", "53", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _PSYCHIC_]),
   GOTHITELLE_54 ("Gothitelle", "54", Rarity.RARE, [STAGE2, EVOLUTION, POKEMON, _PSYCHIC_]),
@@ -89,6 +92,7 @@ public enum GuardiansRising implements LogicCardInfo {
   MIMIKYU_58 ("Mimikyu", "58", Rarity.HOLORARE, [BASIC, POKEMON, _PSYCHIC_]),
   DHELMISE_59 ("Dhelmise", "59", Rarity.HOLORARE, [BASIC, POKEMON, _PSYCHIC_]),
   TAPU_LELE_GX_60 ("Tapu Lele-GX", "60", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _PSYCHIC_]),
+  TAPU_LELE_GX_60A ("Tapu Lele-GX", "60a", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _PSYCHIC_]),
   LUNALA_61 ("Lunala", "61", Rarity.RARE, [STAGE2, EVOLUTION, POKEMON, _PSYCHIC_]),
   MACHOP_62 ("Machop", "62", Rarity.COMMON, [BASIC, POKEMON, _FIGHTING_]),
   MACHOP_63 ("Machop", "63", Rarity.COMMON, [BASIC, POKEMON, _FIGHTING_]),
@@ -121,6 +125,7 @@ public enum GuardiansRising implements LogicCardInfo {
   COTTONEE_90 ("Cottonee", "90", Rarity.COMMON, [BASIC, POKEMON, _FAIRY_]),
   WHIMSICOTT_91 ("Whimsicott", "91", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _FAIRY_]),
   SYLVEON_GX_92 ("Sylveon-GX", "92", Rarity.ULTRARARE, [STAGE1, EVOLUTION, POKEMON, POKEMON_GX, _FAIRY_]),
+  SYLVEON_GX_92A ("Sylveon-GX", "92a", Rarity.ULTRARARE, [STAGE1, EVOLUTION, POKEMON, POKEMON_GX, _FAIRY_]),
   COMFEY_93 ("Comfey", "93", Rarity.HOLORARE, [BASIC, POKEMON, _FAIRY_]),
   GOOMY_94 ("Goomy", "94", Rarity.COMMON, [BASIC, POKEMON, _DRAGON_]),
   SLIGGOO_95 ("Sliggoo", "95", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _DRAGON_]),
@@ -150,15 +155,20 @@ public enum GuardiansRising implements LogicCardInfo {
   AQUA_PATCH_119 ("Aqua Patch", "119", Rarity.UNCOMMON, [ITEM, TRAINER]),
   BROOKLET_HILL_120 ("Brooklet Hill", "120", Rarity.UNCOMMON, [STADIUM, TRAINER]),
   CHOICE_BAND_121 ("Choice Band", "121", Rarity.UNCOMMON, [POKEMON_TOOL, ITEM, TRAINER]),
+  CHOICE_BAND_121A ("Choice Band", "121a", Rarity.UNCOMMON, [POKEMON_TOOL, ITEM, TRAINER]),
   ENERGY_LOTO_122 ("Energy Loto", "122", Rarity.UNCOMMON, [ITEM, TRAINER]),
   ENERGY_RECYCLER_123 ("Energy Recycler", "123", Rarity.UNCOMMON, [ITEM, TRAINER]),
   ENHANCED_HAMMER_124 ("Enhanced Hammer", "124", Rarity.UNCOMMON, [ITEM, TRAINER]),
+  ENHANCED_HAMMER_124A ("Enhanced Hammer", "124a", Rarity.UNCOMMON, [ITEM, TRAINER]),
   FIELD_BLOWER_125 ("Field Blower", "125", Rarity.UNCOMMON, [ITEM, TRAINER]),
+  FIELD_BLOWER_125A ("Field Blower", "125a", Rarity.UNCOMMON, [ITEM, TRAINER]),
   HALA_126 ("Hala", "126", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
   MALLOW_127 ("Mallow", "127", Rarity.UNCOMMON, [SUPPORTER, TRAINER]),
   MAX_POTION_128 ("Max Potion", "128", Rarity.UNCOMMON, [ITEM, TRAINER]),
+  MAX_POTION_128A ("Max Potion", "128a", Rarity.UNCOMMON, [ITEM, TRAINER]),
   MULTI_SWITCH_129 ("Multi Switch", "129", Rarity.UNCOMMON, [ITEM, TRAINER]),
   RESCUE_STRETCHER_130 ("Rescue Stretcher", "130", Rarity.UNCOMMON, [ITEM, TRAINER]),
+  RESCUE_STRETCHER_130A ("Rescue Stretcher", "130a", Rarity.UNCOMMON, [ITEM, TRAINER]),
   TURTONATOR_GX_131 ("Turtonator-GX", "131", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _FIRE_]),
   ALOLAN_NINETALES_GX_132 ("Alolan Ninetales-GX", "132", Rarity.ULTRARARE, [STAGE1, EVOLUTION, POKEMON, POKEMON_GX, _WATER_]),
   WISHIWASHI_GX_133 ("Wishiwashi-GX", "133", Rarity.ULTRARARE, [BASIC, POKEMON, POKEMON_GX, _WATER_]),
@@ -186,6 +196,7 @@ public enum GuardiansRising implements LogicCardInfo {
   TAPU_LELE_GX_155 ("Tapu Lele-GX", "155", Rarity.SECRET, [BASIC, POKEMON, POKEMON_GX, _PSYCHIC_]),
   LYCANROC_GX_156 ("Lycanroc-GX", "156", Rarity.SECRET, [STAGE1, EVOLUTION, POKEMON, POKEMON_GX, _FIGHTING_]),
   METAGROSS_GX_157 ("Metagross-GX", "157", Rarity.SECRET, [STAGE2, EVOLUTION, POKEMON, POKEMON_GX, _METAL_]),
+  METAGROSS_GX_157A ("Metagross-GX", "157a", Rarity.SECRET, [STAGE2, EVOLUTION, POKEMON, POKEMON_GX, _METAL_]),
   SYLVEON_GX_158 ("Sylveon-GX", "158", Rarity.SECRET, [STAGE1, EVOLUTION, POKEMON, POKEMON_GX, _FAIRY_]),
   KOMMO_O_GX_159 ("Kommo-o-GX", "159", Rarity.SECRET, [STAGE2, EVOLUTION, POKEMON, POKEMON_GX, _DRAGON_]),
   DRAMPA_GX_160 ("Drampa-GX", "160", Rarity.SECRET, [BASIC, POKEMON, POKEMON_GX, _COLORLESS_]),
@@ -682,6 +693,8 @@ public enum GuardiansRising implements LogicCardInfo {
           }
 
         };
+      case ALOLAN_SANDSHREW_19A:
+        return copy (ALOLAN_SANDSHREW_19, this);
       case ALOLAN_SANDSLASH_20:
         return evolution (this, from:"Alolan Sandshrew", hp:HP110, type:WATER, retreatCost:2) {
           weakness METAL
@@ -726,6 +739,8 @@ public enum GuardiansRising implements LogicCardInfo {
           }
 
         };
+      case ALOLAN_VULPIX_21A:
+        return copy (ALOLAN_VULPIX_21, this);
       case ALOLAN_NINETALES_GX_22:
         return evolution (this, from:"Alolan Vulpix", hp:HP210, type:WATER, retreatCost:1) {
           weakness METAL
@@ -1413,6 +1428,8 @@ public enum GuardiansRising implements LogicCardInfo {
           }
 
         };
+      case GARBODOR_51A:
+        return copy(GARBODOR_51, this);
       case GOTHITA_52:
         return basic (this, hp:HP060, type:PSYCHIC, retreatCost:1) {
           weakness PSYCHIC
@@ -1649,6 +1666,8 @@ public enum GuardiansRising implements LogicCardInfo {
           }
 
         };
+      case TAPU_LELE_GX_60A:
+        return copy(TAPU_LELE_GX_60, this);
       case LUNALA_61:
         return evolution (this, from:"Cosmoem", hp:HP160, type:PSYCHIC, retreatCost:2) {
           weakness DARKNESS
@@ -2369,6 +2388,8 @@ public enum GuardiansRising implements LogicCardInfo {
           }
 
         };
+      case SYLVEON_GX_92A:
+        return copy(SYLVEON_GX_92, this);
       case COMFEY_93:
         return basic (this, hp:HP070, type:FAIRY, retreatCost:1) {
           weakness METAL
@@ -3024,6 +3045,8 @@ public enum GuardiansRising implements LogicCardInfo {
             eff1.unregister()
           }
         };
+      case CHOICE_BAND_121A:
+        return copy(CHOICE_BAND_121, this);
       case ENERGY_LOTO_122:
         return itemCard (this) {
           text "Look at the top 7 cards of your deck. You may reveal an Energy card you find there and put it into your hand. Shuffle the other cards back into your deck.\nYou may play as many Item cards as you like during your turn (before your attack)."
@@ -3047,6 +3070,8 @@ public enum GuardiansRising implements LogicCardInfo {
           }
         };
       case ENHANCED_HAMMER_124:
+        return copy(PhantomForces.ENHANCED_HAMMER_94, this);
+      case ENHANCED_HAMMER_124A:
         return copy(PhantomForces.ENHANCED_HAMMER_94, this);
       case FIELD_BLOWER_125:
         return itemCard (this) {
@@ -3074,6 +3099,8 @@ public enum GuardiansRising implements LogicCardInfo {
             assert all.findAll {it.cards.hasType(POKEMON_TOOL)} || (bg.stadiumInfoStruct && stadiumCanBeAffectedByItemAndSupporter())
           }
         };
+      case FIELD_BLOWER_125A:
+        return copy(FIELD_BLOWER_125, this);
       case HALA_126:
         return supporter (this) {
           text "Shuffle your hand into your deck. If you have used your GX attack, draw 7 cards. If not, draw 4 cards.\nYou may play only 1 Supporter card during your turn (before your attack)."
@@ -3101,6 +3128,8 @@ public enum GuardiansRising implements LogicCardInfo {
           }
         };
       case MAX_POTION_128:
+        return copy(EmergingPowers.MAX_POTION_94, this);
+      case MAX_POTION_128A:
         return copy(EmergingPowers.MAX_POTION_94, this);
       case MULTI_SWITCH_129:
         return itemCard (this) {
@@ -3132,6 +3161,8 @@ public enum GuardiansRising implements LogicCardInfo {
             assert my.discard.filterByType(POKEMON)
           }
         };
+      case RESCUE_STRETCHER_130A:
+        return copy(RESCUE_STRETCHER_130, this);
       case TURTONATOR_GX_131:
         return copy (TURTONATOR_GX_18, this)
       case ALOLAN_NINETALES_GX_132:
@@ -3185,6 +3216,8 @@ public enum GuardiansRising implements LogicCardInfo {
       case LYCANROC_GX_156:
         return copy (LYCANROC_GX_74, this)
       case METAGROSS_GX_157:
+        return copy (METAGROSS_GX_85, this)
+      case METAGROSS_GX_157A:
         return copy (METAGROSS_GX_85, this)
       case SYLVEON_GX_158:
         return copy (SYLVEON_GX_92, this)

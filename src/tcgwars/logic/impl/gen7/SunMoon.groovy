@@ -135,6 +135,7 @@ public enum SunMoon implements LogicCardInfo {
   KANGASKHAN_99 ("Kangaskhan", "99", Rarity.HOLORARE, [BASIC, POKEMON, _COLORLESS_]),
   TAUROS_GX_100 ("Tauros-GX", "100", Rarity.COMMON, [BASIC, POKEMON, POKEMON_GX, _COLORLESS_]),
   EEVEE_101 ("Eevee", "101", Rarity.COMMON, [BASIC, POKEMON, _COLORLESS_]),
+  EEVEE_101A ("Eevee", "101a", Rarity.COMMON, [BASIC, POKEMON, _COLORLESS_]),
   SPINDA_102 ("Spinda", "102", Rarity.UNCOMMON, [BASIC, POKEMON, _COLORLESS_]),
   LILLIPUP_103 ("Lillipup", "103", Rarity.COMMON, [BASIC, POKEMON, _COLORLESS_]),
   HERDIER_104 ("Herdier", "104", Rarity.UNCOMMON, [STAGE1, EVOLUTION, POKEMON, _COLORLESS_]),
@@ -2472,6 +2473,8 @@ public enum SunMoon implements LogicCardInfo {
           }
 
         }
+      case EEVEE_101A:
+        return copy(EEVEE_101, this);
       case SPINDA_102:
         return basic (this, hp:HP080, type:COLORLESS, retreatCost:1) {
           weakness FIGHTING
