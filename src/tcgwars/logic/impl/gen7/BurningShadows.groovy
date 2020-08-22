@@ -2694,6 +2694,8 @@ public enum BurningShadows implements LogicCardInfo {
             assert opp.bench.notEmpty
           }
         };
+      case GUZMA_115A:
+        return copy(GUZMA_115, this);
       case KIAWE_116:
         return supporter (this) {
           text "Search your deck for up to 4 [R] Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck. Your turn ends.\nYou may play only 1 Supporter card during your turn (before your attack)."
@@ -2708,6 +2710,8 @@ public enum BurningShadows implements LogicCardInfo {
             assert my.deck
           }
         };
+      case KIAWE_116A:
+        return copy(KIAWE_116, this);
       case LANA_117:
         return supporter (this) {
           text "Heal 50 damage from each of your Pokémon that has any [W] Energy attached to it.\nYou may play only 1 Supporter card during your turn (before your attack)."
